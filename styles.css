@@ -1,0 +1,41 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar {
+  width: 90%;
+  border: 2px solid black;
+  border-radius: 10px;
+}
+
+form {
+  display: flex;
+}
+
+img,
+input {
+  margin: 0 5px;
+}
+
+:focus-visible {
+  outline: none;
+}
+
+input {
+  flex: 1;
+  padding: 5px 0;
+  font-size: 20px;
+  border-style: none;
+}
+
+img {
+  width: 20px;
+}
